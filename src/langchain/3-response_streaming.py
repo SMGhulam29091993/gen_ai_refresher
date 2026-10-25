@@ -3,8 +3,7 @@ import os
 from dotenv import load_dotenv
 from langchain.chat_models import init_chat_model #this library is used to initialize any kind of chat model, including Gemini, OpenAI, and Grok.
 import logging
-from pydantic import SecretStr
-from langchain_groq import ChatGroq
+
 
 load_dotenv()
 
